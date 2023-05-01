@@ -1,0 +1,117 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="#D500F9"
+		android:gravity="center_horizontal"
+		android:orientation="vertical">
+		<LinearLayout
+			android:id="@+id/linear2"
+			android:layout_width="match_parent"
+			android:layout_height="45dp"
+			android:layout_margin="8dp"
+			android:gravity="center_horizontal|center_vertical"
+			android:orientation="horizontal">
+			<EditText
+				android:id="@+id/edittext1"
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:padding="8dp"
+				android:background="@android:color/transparent"
+				android:gravity="center_vertical"
+				android:textSize="12sp"
+				android:textColor="#FAFAFA"
+				android:hint="Enter link"
+				android:textColorHint="#FAFAFA"
+				android:singleLine="true"
+				android:lines="1"
+				android:imeOptions="actionDone"
+				android:layout_weight="1" />
+			<Button
+				android:id="@+id/button1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_margin="5dp"
+				android:background="@android:color/transparent"
+				android:text="&gt; GO &lt;"
+				android:textSize="12sp"
+				android:textStyle="bold"
+				android:textColor="#FAFAFA" />
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/linear3"
+			android:layout_width="match_parent"
+			android:layout_height="200dp"
+			android:layout_marginLeft="8dp"
+			android:layout_marginRight="8dp"
+			android:layout_marginBottom="8dp"
+			android:orientation="horizontal">
+			<WebView
+				android:id="@+id/webview1"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_weight="1" />
+			<WebView
+				android:id="@+id/webview2"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_weight="1" />
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/linear5"
+			android:layout_width="match_parent"
+			android:layout_height="200dp"
+			android:layout_marginLeft="8dp"
+			android:layout_marginRight="8dp"
+			android:layout_marginBottom="8dp"
+			android:orientation="horizontal">
+			<WebView
+				android:id="@+id/webview3"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_weight="1" />
+			<WebView
+				android:id="@+id/webview4"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_weight="1" />
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/linear6"
+			android:layout_width="match_parent"
+			android:layout_height="200dp"
+			android:layout_marginLeft="8dp"
+			android:layout_marginRight="8dp"
+			android:layout_marginBottom="8dp"
+			android:orientation="horizontal">
+			<WebView
+				android:id="@+id/webview5"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_weight="1" />
+			<WebView
+				android:id="@+id/webview6"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_weight="1" />
+		</LinearLayout>
+		<TextView
+			android:id="@+id/textview1"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_marginBottom="8dp"
+			android:padding="8dp"
+			android:gravity="center_horizontal|bottom"
+			android:text="Created By ❤️ Sir Lutz."
+			android:textSize="14sp"
+			android:textStyle="bold"
+			android:textColor="#FAFAFA" />
+	</LinearLayout>
+</LinearLayout>
